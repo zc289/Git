@@ -11,13 +11,6 @@ int main()
     // store sum in variable Sum
     Sum = n1 + n2;
 
-	if(n1>n2)
-	{
-		printf("%d %d",n1,n2);
-	}
-	else
-		printf("%d %d",n2,n1);
-	
     // display output     
     printf("%d + %d = %d\n", n1, n2, Sum);
     
