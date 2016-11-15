@@ -8,6 +8,12 @@ int main()
     // two integers entered by user are stored using scanf()
     scanf("%d %d", &n1, &n2);
 
+	if(n1>n2)
+	{
+		prinft("%d %d",n1,n2);
+	}
+	else
+		printf("%d %d",n2,n1);
     // store sum in variable Sum
     Sum = n1 + n2;
 
